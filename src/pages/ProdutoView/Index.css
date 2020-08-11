@@ -1,0 +1,91 @@
+.ProdutoView {
+    background: white;
+    width: 100%;
+    margin: 0;
+}
+
+.ProdutoView .Filtro-Nome,
+.ProdutoView .Filtro-Material {
+    margin: 0;
+    width: 25%;
+}
+.ProdutoView .Filtro-Nome {
+    margin-left: 10px;
+}
+
+.ProdutoView .Filtro input {
+    border: none;
+    border-radius: 20px;
+    margin-right: 3px;
+}
+.ProdutoView .buttonRow {
+    width: 100%;
+    display: flex;
+    
+}
+.ProdutoView .buttonRow .Filtro-Nome{
+    display: flex;
+    justify-content: space-around;
+    width: 75%;
+    margin-right: 5%;
+}
+.ProdutoView .buttonRow .Filtro-Nome input{
+    border: 3px solid #555;
+    border-width: 2px;
+    border-radius: 20px;
+    background-image: url('searchv2.png');
+    background-position: 10px 1px;
+    background-repeat: no-repeat;
+    background-size: 25px;
+    height: 65%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+    margin: none;
+    padding-left: 40px;
+}
+
+.ProdutoView .btnFiltro {
+    width: 20%;
+    border: none;
+    border-radius: 20px;
+    background-color: #414141;
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    outline: none; 
+    text-align: center;
+    margin-left: 0;
+    text-decoration: none;
+}
+.ProdutoView .btnFiltro:hover {
+    background-color: black;
+}
+.ProdutoView .btnFiltro {
+    margin-right: 20px;
+}
+.ProdutoView .produtoTitulo {
+    display: flex;
+}
+.ProdutoView .produtoRow{
+    display: flex;
+}
+.ProdutoView .thead {
+    background-color: black;
+    color: white;
+}
+
+@media(max-width: 600px){
+    .ProdutoView .btnFiltro,
+    .ProdutoView .btnAdicionar {
+    width: 30%;
+    
+}
+
+    .ProdutoView .table th {
+        padding: 2px;
+}
+.makeStyles-drawerClose-8 {
+    display: none;
+}
+}

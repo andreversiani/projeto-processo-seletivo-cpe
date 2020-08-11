@@ -1,0 +1,135 @@
+@import "https://use.fontawesome.com/releases/v5.5.0/css/all.css";
+
+
+.corpoLogin {
+    background-image: url("./img.jpg");
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.Header .navbar{
+    background: transparent;
+}
+
+.corpoLogin .login-box{
+    width: 75%;
+    height: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: #333333;
+}
+
+.corpoLogin .container{
+    width: 600px;
+    height: 400px;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    background: #e6e6e6;
+    transform: translate(-50%, -50%);
+    border-radius: 24px;
+    text-align: center;
+}
+
+.corpoLogin .login-box h1{
+    float: center;
+    font-size: 35px;
+    border-bottom: 4px solid;
+    margin-bottom: 20px;
+    padding: 13px 0;
+  }
+
+.corpoLogin .textbox{
+    position: relative;
+    overflow:hidden;
+    font-size: 20px;
+    padding: 8px 0;
+    margin: 8px 0;
+  }
+
+.corpoLogin .textbox i {
+    width: 26px;
+}
+
+.corpoLogin .textbox input{
+    background: none;
+    margin: 0 10px;
+    border: 2px solid #333333;
+    padding: 14px 10px;
+    width: 80%;
+    color: #333333;
+    border-radius: 24px;
+}
+
+.corpoLogin .button {
+    border:0;
+    background: #333333;
+    margin: 10px auto;
+    text-align: center;
+    width: 35%;
+    height:13%;
+    margin: 10px;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+}
+
+.corpoLogin .button:focus{
+    outline:0;
+}
+
+.corpoLogin .validation label{
+    color: red;
+    font-size: 15px;
+    margin-bottom: -200px;
+    margin-top: -200px;
+}
+
+.corpoLogin .button:hover{
+    background: #737373;
+  }
+  
+@media(max-width: 600px) {
+
+}
+
+
+.image {
+    border-radius: 50%;
+    width: 50px;
+    margin-right: 100% ;
+    margin-top: 2%;
+}
+
+
+@media (max-width:600px) {
+    .corpoLogin .container{
+        width: 80%;
+    }
+    .corpoLogin .button {
+        width: 40%;
+        height: 10%;
+        margin: 2px;
+        font-size: 14px;
+
+    }
+    .corpoLogin .textbox {
+        padding: 0px 0px;
+    }
+
+    .corpoLogin .textbox input {
+        padding: 10px 15px;
+        width: 80%;
+        height: 100%;
+    }
+    
+    .corpoLogin .login-box h1{
+        font-size: 30px;
+    }
+}
