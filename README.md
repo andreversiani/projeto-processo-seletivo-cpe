@@ -1,4 +1,9 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Front de um controle de estoque de um ferreiro. Feito em React
+
+### User: admin
+### Password: admin
+
+## ----------------------------------------------------------------------------------
 
 ## Available Scripts
 
